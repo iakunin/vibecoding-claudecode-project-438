@@ -15,6 +15,14 @@
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/vibecoding-claudecode
 
+## Прототип
+
+Канвас прототипа в Claude Design: https://claude.ai/artifact/H2FeNHB7cejY8S2HLu6iog
+
+Продукт — «Отчёт за месяц»: черновик ежемесячного отчёта разработчика о сделанной работе,
+собранный из Jira, git и календаря. Описание — в [`discovery/product.md`](discovery/product.md),
+все артефакты дискавери — в каталоге [`discovery/`](discovery/).
+
 
 ## Стек
 
