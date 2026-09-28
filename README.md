@@ -15,31 +15,38 @@
 
 Учебный проект Хекслета: https://ru.hexlet.io/programs/vibecoding-claudecode
 
-## Прототип
+## Продукт: «Отчёт за месяц»
 
-Канвас прототипа в Claude Design: https://claude.ai/artifact/H2FeNHB7cejY8S2HLu6iog
+Черновик ежемесячного отчёта разработчика о сделанной работе: задачи из Jira, коммиты,
+релизы и встречи из календаря собираются в один список со ссылками на источники,
+а возможные пропуски подсвечиваются. Для разработчиков, которым руководитель каждый месяц
+запрашивает такой отчёт и которые сейчас тратят на него 4–5 часов вручную.
 
-Продукт — «Отчёт за месяц»: черновик ежемесячного отчёта разработчика о сделанной работе,
-собранный из Jira, git и календаря. Описание — в [`discovery/product.md`](discovery/product.md),
-все артефакты дискавери — в каталоге [`discovery/`](discovery/).
+- Прототип (канвас Claude Design, 4 экрана): https://claude.ai/artifact/H2FeNHB7cejY8S2HLu6iog
+- Описание продукта по формуле из семи строк: [`discovery/product.md`](discovery/product.md)
 
+## Артефакты дискавери
 
-## Стек
+| Файл | Что внутри |
+| --- | --- |
+| [`discovery/idea.md`](discovery/idea.md) | Задача и ответы фильтра подъёмности |
+| [`discovery/interview-guide.md`](discovery/interview-guide.md) | Гайд интервью: 19 вопросов в 6 блоках |
+| [`discovery/interviews/`](discovery/interviews/) | Расшифровка интервью (одно интервью, имена коллег заменены) |
+| [`discovery/findings.yml`](discovery/findings.yml) | 7 находок с дословными цитатами и 1 догадка |
+| [`discovery/competitors.md`](discovery/competitors.md) | Прямые и косвенный конкуренты, ручной способ, цены на 28.09.2026 |
+| [`discovery/pricing.yml`](discovery/pricing.yml) | Величина боли 22 500 ₽, цена 2 490 ₽, выручка третьего месяца |
+| [`discovery/mvp.md`](discovery/mvp.md) | Гипотезы с ICE, объём MVP и раздел «Не входит» |
+| [`discovery/spec.md`](discovery/spec.md) | Сценарии, критерии приёмки и метрика успеха |
+| [`discovery/product.md`](discovery/product.md) | Описание продукта и раздел «Где ассистент ошибся» |
 
-- Разное
+Тексты шагов проекта с Хекслета сохранены в [`docs/`](docs/).
 
-## Установка
+## Проверка
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
-
-```bash
-git clone https://github.com/iakunin/vibecoding-claudecode-project-438.git
-cd vibecoding-claudecode-project-438
-```
-
-## Использование
-
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+Кода в проекте нет. Автопроверка `hexlet-check` запускается на каждый push и сверяет
+цитаты в `findings.yml` и `pricing.yml` с расшифровками, а также структуру и числа
+в остальных файлах. Результат — во вкладке
+[Actions](https://github.com/iakunin/vibecoding-claudecode-project-438/actions).
 
 ---
 
